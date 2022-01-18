@@ -1,0 +1,84 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+    padding: 5%;
+}
+
+.collapsible:hover{
+    background-color:rgb(249, 72, 146);
+}
+
+.collapsible {
+    background-color: #FFAEBC;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .content1,.content2,.content3,.content4,.content5,.content6,.content7,.content7,.content8,.content9,.content10,.content11 {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+ .redcolor{
+    color: red;
+    }
+
+  .contactus{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+  }
+
+.inputle{
+    width: 75%;
+}
+ul{
+    display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+ol{
+    list-style-type:lower-alpha;
+     display: flex;
+    align-items: center;
+    justify-items: center;
+     flex-direction: column; 
+     
+}
+
+.card{
+    border:black solid 5px;   
+}
+
+.cardh2{
+
+    background-color: red;
+
+}  
+
+.cardinput{
+    width: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    justify-self: center;  
+  }
+  th, td {
+    padding: 5px;
+       
+  }
+  .tablecenter{
+    padding: 0% 25% ;
+  }
+
+  
